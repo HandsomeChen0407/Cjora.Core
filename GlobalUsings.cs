@@ -1,0 +1,11 @@
+﻿global using Furion;
+global using Furion.DataValidation;
+global using Furion.FriendlyException;
+global using Furion.JsonSerialization;
+global using Furion.UnifyResult;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Text;
