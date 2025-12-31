@@ -4,10 +4,29 @@
     <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Authors>HandsomeChen0407</Authors>
+    <Company>Cjora.Core</Company>
+    <Copyright>Copyright © 2025 HandsomeChen0407</Copyright>
+    <Description>核心库</Description>
+    <Name />
+    <PackageIcon />
+    <PackageIconUrl />
+    <PackageId>Cjora.Core</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseUrl />
+    <PackageProjectUrl>https://github.com/HandsomeChen0407/Cjora.Core</PackageProjectUrl>
+    <PackageReleaseNotes>项目初始化</PackageReleaseNotes>
+    <PackageTags />
+    <Product>Cjora.Core</Product>
+    <RepositoryType />
+    <RepositoryUrl />
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cjora.DB\Cjora.DB.csproj" />
+    <PackageReference Include="Cjora.DB" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
